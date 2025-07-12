@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Noto_Sans_JP, Cinzel_Decorative, Alice, Lato, Abril_Fatface } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -11,6 +11,43 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+
+const notoSansJP = Noto_Sans_JP({
+  variable: "--font-noto-sans-jp",
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
+
+const cinzelDecorative = Cinzel_Decorative({
+  variable: "--font-cinzel-decorative",
+  subsets: ["latin"],
+  weight: ["400", "700", "900"],
+});
+
+const alice = Alice({
+  variable: "--font-alice",
+  subsets: ["latin"],
+  weight: ["400"],
+});
+
+const lato = Lato({
+  variable: "--font-lato",
+  subsets: ["latin"],
+  weight: ["300", "400", "700"],
+});
+
+const abrilFatface = Abril_Fatface({
+  variable: "--font-abril-fatface",
+  subsets: ["latin"],
+  weight: ["400"],
+});
+
+const mamelon = {
+  variable: "--font-mamelon",
+  style: "normal",
+  weight: "400",
+  src: "url('/fonts/mamelon.woff2') format('woff2')",
+};
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -25,7 +62,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${notoSansJP.variable} ${cinzelDecorative.variable} ${alice.variable} ${lato.variable} ${abrilFatface.variable} antialiased`}
+        style={{ 'Cinzel Decorative': 'Mamelon, serif' } as React.CSSProperties}
       >
         {children}
       </body>
