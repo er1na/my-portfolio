@@ -65,7 +65,11 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} ${notoSansJP.variable} ${cinzelDecorative.variable} ${alice.variable} ${lato.variable} ${abrilFatface.variable} antialiased`}
         style={{ 'Cinzel Decorative': 'Mamelon, serif' } as React.CSSProperties}
       >
-        {children}
+        <div className="w-full min-h-screen flex justify-center">
+          <div className="shadow-2xl max-w-[1100px] w-full">
+            {children}
+          </div>
+        </div>
       </body>
     </html>
   );
