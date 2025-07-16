@@ -2,7 +2,7 @@ import Menu from "../parts/menu";
 
 export default function Hero() {
     return (
-        <div className="flex flex-col items-center justify-start space-y-0 h-170 bg-primary relative">
+        <div className="flex flex-col items-center justify-start space-y-0 h-[680px] bg-primary relative">
             <div className="bg-gray/25 h-1/2 w-full flex flex-col items-center justify-start">
                 <div className="flex flex-col items-center justify-start">           
                     <div className="text-6xl text-white font-bold pt-10" style={{ fontFamily: 'var(--font-cinzel-decorative)' }}>
