@@ -12,6 +12,7 @@
 @theme {
   --color-primary: #b0d9da;
   --color-gray: #737373;
+  --color-light-cian: #f2f6f6;
 }
 
 :root {
