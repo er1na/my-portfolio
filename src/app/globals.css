@@ -3,7 +3,7 @@
 
 @font-face {
   font-family: 'Mamelon';
-  src: url('/fonts/mamelon.woff2') format('woff2');
+  src: url('/fonts/Mamelon-3-Hi-Regular.otf') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -11,6 +11,7 @@
 
 @theme {
   --color-primary: #b0d9da;
+  --color-secondary: #9bc5c6;
   --color-gray: #737373;
   --color-light-cian: #f2f6f6;
   --color-light-gray: #dddedb;
