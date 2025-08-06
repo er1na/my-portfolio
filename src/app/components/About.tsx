@@ -37,7 +37,9 @@ export default function About() {
                                 <li># 開発</li>
                             </ul>
                         </div>
-                        <Sns />
+                        <div className="pt-15">
+                            <Sns />
+                        </div>
                     </div>
                 </div>
             </div>
