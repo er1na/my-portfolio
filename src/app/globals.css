@@ -82,6 +82,26 @@
   --color-sidebar-ring: var(--sidebar-ring);
 }
 
+@keyframes floatY {
+  0%   { transform: translateY(0) translateX(0) rotate(0deg); }
+  50%  { transform: translateY(-40px) translateX(10px) rotate(6deg); }
+  100% { transform: translateY(0) translateX(0) rotate(0deg); }
+}
+@keyframes driftX {
+  0%   { transform: translateX(-10vw); }
+  100% { transform: translateX(110vw); }
+}
+
+.emoji-float {
+  animation: floatY var(--float-dur, 6s) ease-in-out infinite;
+  will-change: transform;
+}
+
+.emoji-drift {
+  animation: driftX var(--drift-dur, 40s) linear infinite;
+  will-change: transform;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;

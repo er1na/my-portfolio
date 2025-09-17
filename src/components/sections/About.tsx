@@ -7,24 +7,24 @@ export default function About() {
         <div className="grid md:grid-cols-3 gap-4 md:gap-6">
           <Card className="rounded-3xl border-zinc-100 md:col-span-2">
             <CardHeader>
-              <CardTitle className="text-zinc-800 dark:text-zinc-100">About</CardTitle>
+              <CardTitle className="text-zinc-800">About</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-zinc-600 dark:text-zinc-300 leading-relaxed">
+              <p className="text-zinc-600 leading-relaxed">
                 フロントエンドとモバイルが得意です。設計はレイヤード／MVVM を状況に応じて使い分け、可読性と DX を重視します。
                 UI は「かわいく・軽快で・触っていて気持ちいい」ことがモットー。
               </p>
               <div className="mt-4 grid sm:grid-cols-2 gap-3 text-sm">
-                <div className="flex items-center gap-2 text-zinc-600 dark:text-zinc-300"><MapPin className="w-4 h-4"/> Yokohama, JP</div>
-                <div className="flex items-center gap-2 text-zinc-600 dark:text-zinc-300"><Phone className="w-4 h-4"/> お問い合わせはメールから</div>
+                <div className="flex items-center gap-2 text-zinc-600"><MapPin className="w-4 h-4"/> Yokohama, JP</div>
+                <div className="flex items-center gap-2 text-zinc-600"><Phone className="w-4 h-4"/> お問い合わせはメールから</div>
               </div>
             </CardContent>
           </Card>
           <Card className="rounded-3xl border-zinc-100">
             <CardHeader>
-              <CardTitle className="text-zinc-800 dark:text-zinc-100">Now</CardTitle>
+              <CardTitle className="text-zinc-800">Now</CardTitle>
             </CardHeader>
-            <CardContent className="space-y-2 text-sm text-zinc-600 dark:text-zinc-300">
+            <CardContent className="space-y-2 text-sm text-zinc-600">
               <div>• Next.js + microCMS でポートフォリオ CMS 構築中</div>
               <div>• Flutter アプリ「Taskee」UI 調整</div>
               <div>• 記事：Controller ライフサイクル / MVCC まとめ</div>

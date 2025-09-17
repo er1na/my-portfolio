@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Noto_Sans_JP, Cinzel_Decorative, Alice, Lato, Abril_
 import "./globals.css";
 import Navigation from "@/components/sections/Navigation";
 import Footer from "@/components/sections/Footer";
+import FloatingEmojis from "@/components/bg/FloatingEmojis.client";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -43,13 +44,6 @@ const abrilFatface = Abril_Fatface({
   subsets: ["latin"],
   weight: ["400"],
 });
-
-const mamelon = {
-  variable: "--font-mamelon",
-  style: "normal",
-  weight: "400",
-  src: "url('/fonts/mamelon.woff2') format('woff2')",
-};
 
 export const metadata: Metadata = {
   title: "Erina Suzuki",

@@ -3,10 +3,12 @@ import Projects from "@/components/sections/Projects";
 import Skills from "@/components/sections/Skills";
 import About from "@/components/sections/About";
 import Contact from "@/components/sections/Contact";
+import FloatingEmojis from "@/components/bg/FloatingEmojis.client";
 
 export default function CuteModernPortfolio() {
   return (
-    <div className={"min-h-dvh bg-white"}>
+    <div className={"min-h-dvh"}>
+      <FloatingEmojis />
       {/* ヒーロー */}
       <Hero />
 

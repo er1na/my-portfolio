@@ -15,17 +15,17 @@ export default function Hero() {
             >
             <div className="flex flex-col md:flex-row items-center gap-8">
                 <div className="shrink-0">
-                    <div className="w-28 h-28 md:w-32 md:h-32 rounded-3xl bg-gradient-to-br from-pink-200 via-rose-200 to-sky-200 dark:from-pink-400/30 dark:via-rose-400/20 dark:to-sky-400/20 p-1">
-                        <div className="w-full h-full rounded-2xl bg-white dark:bg-zinc-800 grid place-items-center text-3xl">
+                    <div className="w-28 h-28 md:w-32 md:h-32 rounded-3xl bg-gradient-to-br from-pink-200 via-rose-200 to-sky-200 p-1">
+                        <div className="w-full h-full rounded-2xl bg-white grid place-items-center text-3xl">
                         ✨
                     </div>
                 </div>
             </div>
             <div className="flex-1">
-              <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50">
+              <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-zinc-900">
                 可愛い × モダンな UI が好きなフロントエンド開発者
               </h1>
-              <p className="mt-3 text-zinc-600 dark:text-zinc-300">
+              <p className="mt-3 text-zinc-600">
                 Next.js / Flutter を中心に、保守性の高い設計と使って楽しい体験を両立させます。
               </p>
               <div className="mt-5 flex flex-wrap items-center gap-3">
@@ -39,10 +39,10 @@ export default function Hero() {
                     <Download className="w-4 h-4"/> 履歴書（PDF）
                   </a>
                 </Button>
-                <a href="#" className="inline-flex items-center gap-2 text-zinc-600 hover:text-zinc-900 dark:text-zinc-300 dark:hover:text-white">
+                <a href="#" className="inline-flex items-center gap-2 text-zinc-600 hover:text-zinc-900">
                   <Github className="w-4 h-4"/> GitHub
                 </a>
-                <a href="#" className="inline-flex items-center gap-2 text-zinc-600 hover:text-zinc-900 dark:text-zinc-300 dark:hover:text-white">
+                <a href="#" className="inline-flex items-center gap-2 text-zinc-600 hover:text-zinc-900">
                   <Linkedin className="w-4 h-4"/> LinkedIn
                 </a>
               </div>
