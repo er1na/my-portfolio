@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin, Download, ArrowRight } from "lucide-react";
+import { Github, Download, Twitter } from "lucide-react";
 
 export default function Hero() {
     return (
@@ -23,27 +23,27 @@ export default function Hero() {
             </div>
             <div className="flex-1">
               <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-zinc-900">
-                可愛い × モダンな UI が好きなフロントエンド開発者
+                XXXXXX
               </h1>
               <p className="mt-3 text-zinc-600">
-                Next.js / Flutter を中心に、保守性の高い設計と使って楽しい体験を両立させます。
+                XXXXXX
               </p>
               <div className="mt-5 flex flex-wrap items-center gap-3">
-                <Button className="rounded-2xl bg-pink-500 hover:bg-pink-600">
-                  <a href="#projects" className="flex items-center gap-2">
-                    作品を見る <ArrowRight className="w-4 h-4"/>
-                  </a>
-                </Button>
-                <Button variant="outline" className="rounded-2xl">
-                  <a href="#resume" className="flex items-center gap-2">
-                    <Download className="w-4 h-4"/> 履歴書（PDF）
-                  </a>
-                </Button>
-                <a href="#" className="inline-flex items-center gap-2 text-zinc-600 hover:text-zinc-900">
+                <div className="relative">
+                  <div className="absolute -top-1 -right-1 z-10 rounded-full w-5 h-5 flex items-center justify-center text-xl">
+                    🔐
+                  </div>
+                  <Button variant="outline" className="rounded-2xl">
+                    <a href="/api/resume" className="flex items-center gap-2">
+                      <Download className="w-4 h-4"/> 履歴書（PDF）
+                    </a>
+                  </Button>
+                </div>
+                <a href="https://github.com/er1na" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-zinc-600 hover:text-zinc-900 pr-2">
                   <Github className="w-4 h-4"/> GitHub
                 </a>
-                <a href="#" className="inline-flex items-center gap-2 text-zinc-600 hover:text-zinc-900">
-                  <Linkedin className="w-4 h-4"/> LinkedIn
+                <a href="https://x.com/riiin_rin24" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-zinc-600 hover:text-zinc-900">
+                  <Twitter className="w-4 h-4"/> X(Twitter)
                 </a>
               </div>
             </div>

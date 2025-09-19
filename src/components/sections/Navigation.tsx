@@ -13,7 +13,7 @@ export default function Navigation() {
             <span className="inline-flex items-center justify-center w-8 h-8 rounded-2xl bg-pink-200">
               <Sparkles className="w-4 h-4 text-pink-600" />
             </span>
-            <span className="font-semibold text-zinc-500">Erina Suzuki</span>
+            <span className="font-semibold text-zinc-500">Welcome!!</span>
             <Badge className="ml-2 rounded-xl bg-sky-100 text-sky-700 hover:bg-sky-100">Portfolio</Badge>
           </div>
           <div className="hidden md:flex items-center gap-2">
@@ -24,7 +24,7 @@ export default function Navigation() {
           </div>
           <div className="flex items-center gap-2">
             <Button className="rounded-2xl bg-zinc-900 hover:bg-zinc-800">
-              <a href="#contact" className="flex items-center gap-2">
+              <a href="mailto:ern20501prg@gmail.com" className="flex items-center gap-2">
                 <Mail className="w-4 h-4"/> Contact
               </a>
             </Button>

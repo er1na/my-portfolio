@@ -3,7 +3,7 @@ import { Geist, Geist_Mono, Noto_Sans_JP, Cinzel_Decorative, Alice, Lato, Abril_
 import "./globals.css";
 import Navigation from "@/components/sections/Navigation";
 import Footer from "@/components/sections/Footer";
-import FloatingEmojis from "@/components/bg/FloatingEmojis.client";
+import Script from "next/script";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -46,8 +46,8 @@ const abrilFatface = Abril_Fatface({
 });
 
 export const metadata: Metadata = {
-  title: "Erina Suzuki",
-  description: "Erina Suzuki's portfolio",
+  title: "My Portfolio",
+  description: "My Portfolio",
 };
 
 export default function RootLayout({
