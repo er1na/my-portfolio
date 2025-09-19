@@ -23,7 +23,6 @@ export default function CuteModernPortfolio() {
 
       {/* お問い合わせ */}
       <Contact />
-
     </div>
   );
 }

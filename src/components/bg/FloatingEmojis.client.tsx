@@ -12,7 +12,7 @@ type Particle = {
 };
 
 export default function FloatingEmojisFloating({
-  emojis = ["🎀","😃","🐶","❄️"],
+  emojis = ["🎀", "😃", "🐶", "❄️"],
   count = 12,
   speed = 1.2,
 }: {
@@ -75,7 +75,7 @@ export default function FloatingEmojisFloating({
 
     return () => {
       cancelAnimationFrame(animationFrame);
-      particles.forEach(p => p.el.remove());
+      particles.forEach((p) => p.el.remove());
     };
   }, [count, emojis, speed]);
 

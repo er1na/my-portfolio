@@ -1,9 +1,16 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Noto_Sans_JP, Cinzel_Decorative, Alice, Lato, Abril_Fatface } from "next/font/google";
+import {
+  Geist,
+  Geist_Mono,
+  Noto_Sans_JP,
+  Cinzel_Decorative,
+  Alice,
+  Lato,
+  Abril_Fatface,
+} from "next/font/google";
 import "./globals.css";
 import Navigation from "@/components/sections/Navigation";
 import Footer from "@/components/sections/Footer";
-import Script from "next/script";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -59,7 +66,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${notoSansJP.variable} ${cinzelDecorative.variable} ${alice.variable} ${lato.variable} ${abrilFatface.variable} antialiased`}
-        style={{ 'Cinzel Decorative': 'Mamelon, serif' } as React.CSSProperties}
+        style={{ "Cinzel Decorative": "Mamelon, serif" } as React.CSSProperties}
       >
         <div className="w-full min-h-screen flex justify-center">
           <div className="shadow-2xl max-w-[1200px] w-full">

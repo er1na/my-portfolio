@@ -7,7 +7,10 @@ export async function POST(req: Request) {
     const { name, email, subject, message } = await req.json();
 
     if (!name || !email || !subject || !message) {
-      return Response.json({ ok: false, error: "missing fields" }, { status: 400 });
+      return Response.json(
+        { ok: false, error: "missing fields" },
+        { status: 400 }
+      );
     }
 
     await resend.emails.send({
