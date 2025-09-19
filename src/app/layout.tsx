@@ -55,6 +55,9 @@ const abrilFatface = Abril_Fatface({
 export const metadata: Metadata = {
   title: "My Portfolio",
   description: "My Portfolio",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
